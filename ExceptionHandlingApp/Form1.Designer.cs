@@ -32,7 +32,11 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+
             this.btn3119 = new System.Windows.Forms.Button();
+
+            this.btn3199 = new System.Windows.Forms.Button();
+
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -57,9 +61,14 @@
             // 
             // groupBox1
             // 
+
             this.groupBox1.Controls.Add(this.btn3119);
             this.groupBox1.Location = new System.Drawing.Point(15, 16);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
+            this.groupBox1.Controls.Add(this.btn3199);
+            this.groupBox1.Location = new System.Drawing.Point(13, 13);
+
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Size = new System.Drawing.Size(271, 200);
@@ -78,6 +87,7 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
             // 
+
             // btn3119
             // 
             this.btn3119.Location = new System.Drawing.Point(7, 26);
@@ -87,6 +97,17 @@
             this.btn3119.Text = "3119 황다희";
             this.btn3119.UseVisualStyleBackColor = true;
             this.btn3119.Click += new System.EventHandler(this.btn3119_Click);
+
+            // btn3199
+            // 
+            this.btn3199.Location = new System.Drawing.Point(7, 21);
+            this.btn3199.Name = "btn3199";
+            this.btn3199.Size = new System.Drawing.Size(82, 23);
+            this.btn3199.TabIndex = 0;
+            this.btn3199.Text = "3199 함기훈";
+            this.btn3199.UseVisualStyleBackColor = true;
+            this.btn3199.Click += new System.EventHandler(this.btn3199_Click);
+
             // 
             // Form1
             // 
@@ -114,7 +135,11 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+
         private System.Windows.Forms.Button btn3119;
+
+        private System.Windows.Forms.Button btn3199;
+
     }
 }
 
