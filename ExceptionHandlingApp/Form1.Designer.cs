@@ -31,8 +31,8 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btn3118 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +67,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "3-1";
             // 
+            // btn3118
+            // 
+            this.btn3118.Location = new System.Drawing.Point(3, 22);
+            this.btn3118.Name = "btn3118";
+            this.btn3118.Size = new System.Drawing.Size(120, 23);
+            this.btn3118.TabIndex = 0;
+            this.btn3118.Text = "3118 정민지";
+            this.btn3118.UseVisualStyleBackColor = true;
+            this.btn3118.Click += new System.EventHandler(this.button1_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.Location = new System.Drawing.Point(15, 224);
@@ -77,16 +87,6 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
-            // 
-            // btn3118
-            // 
-            this.btn3118.Location = new System.Drawing.Point(3, 22);
-            this.btn3118.Name = "btn3118";
-            this.btn3118.Size = new System.Drawing.Size(75, 23);
-            this.btn3118.TabIndex = 0;
-            this.btn3118.Text = "3118 정민지";
-            this.btn3118.UseVisualStyleBackColor = true;
-            this.btn3118.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
