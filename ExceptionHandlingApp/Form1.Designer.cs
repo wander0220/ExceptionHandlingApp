@@ -31,6 +31,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn3118 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
 
             this.btn3103 = new System.Windows.Forms.Button();
@@ -46,7 +47,6 @@
             // 
             // statusStrip1
             // 
-
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
@@ -54,7 +54,6 @@
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
             this.statusStrip1.Size = new System.Drawing.Size(299, 26);
-
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -66,6 +65,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn3118);
+            this.groupBox1.Location = new System.Drawing.Point(15, 16);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 
             this.groupBox1.Controls.Add(this.btn3103);
             this.groupBox1.Location = new System.Drawing.Point(19, 20);
@@ -99,6 +101,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "3-1";
             // 
+            // btn3118
+            // 
+            this.btn3118.Location = new System.Drawing.Point(3, 22);
+            this.btn3118.Name = "btn3118";
+            this.btn3118.Size = new System.Drawing.Size(120, 23);
+            this.btn3118.TabIndex = 0;
+            this.btn3118.Text = "3118 정민지";
+            this.btn3118.UseVisualStyleBackColor = true;
+            this.btn3118.Click += new System.EventHandler(this.button1_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.Location = new System.Drawing.Point(15, 224);
@@ -106,7 +118,6 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Size = new System.Drawing.Size(271, 200);
-
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
@@ -176,13 +187,13 @@
             // Form1
             // 
 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 574);
+            this.ClientSize = new System.Drawing.Size(299, 479);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.statusStrip1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 
             this.Name = "Form1";
             this.Text = "예외 처리 실습";
@@ -202,6 +213,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
 
+        private System.Windows.Forms.Button btn3118;
         private System.Windows.Forms.Button btn3103;
         private System.Windows.Forms.Button btn3107;
         private System.Windows.Forms.Button btn3119;

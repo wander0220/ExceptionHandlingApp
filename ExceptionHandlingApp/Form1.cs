@@ -22,6 +22,12 @@ namespace ExceptionHandlingApp
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3118();
+            form.Show();
+
+        }
 
         private void btn3103_Click(object sender, EventArgs e)
         {
