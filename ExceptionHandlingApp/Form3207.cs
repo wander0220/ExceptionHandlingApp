@@ -42,6 +42,7 @@ namespace ExceptionHandlingApp
                 MessageBox.Show("알 수 없는 예외가 발생했습니다.\n" + exception.Message);
                 txtinput.Text = "";
                 txtResult.Text = "";
+
             }
             finally
             {
