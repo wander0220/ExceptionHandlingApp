@@ -16,5 +16,12 @@ namespace ExceptionHandlingApp
         {
             InitializeComponent();
         }
+
+        private void btnresult_Click(object sender, EventArgs e)
+        {
+            string input = txtinput.Text;
+            int result = int.Parse(input) * 100;
+            txtresult.Text = result.ToString();
+        }
     }
 }
