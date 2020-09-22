@@ -82,7 +82,7 @@
             // 
             // but3109
             // 
-            this.but3109.Location = new System.Drawing.Point(122, 75);
+            this.but3109.Location = new System.Drawing.Point(121, 75);
             this.but3109.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.but3109.Name = "but3109";
             this.but3109.Size = new System.Drawing.Size(110, 24);
@@ -93,7 +93,7 @@
             // 
             // btn3102
             // 
-            this.btn3102.Location = new System.Drawing.Point(121, 19);
+            this.btn3102.Location = new System.Drawing.Point(121, 17);
             this.btn3102.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3102.Name = "btn3102";
             this.btn3102.Size = new System.Drawing.Size(110, 24);
@@ -104,7 +104,7 @@
             // 
             // btn3118
             // 
-            this.btn3118.Location = new System.Drawing.Point(122, 103);
+            this.btn3118.Location = new System.Drawing.Point(121, 103);
             this.btn3118.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3118.Name = "btn3118";
             this.btn3118.Size = new System.Drawing.Size(110, 24);
@@ -159,7 +159,7 @@
             // 
             // btn3105
             // 
-            this.btn3105.Location = new System.Drawing.Point(122, 47);
+            this.btn3105.Location = new System.Drawing.Point(121, 47);
             this.btn3105.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3105.Name = "btn3105";
             this.btn3105.Size = new System.Drawing.Size(110, 24);
