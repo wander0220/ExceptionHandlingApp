@@ -79,15 +79,15 @@ namespace ExceptionHandlingApp
             form.Show();        
         }
 
-        private void btn3204_Click(object sender, EventArgs e)
-        {
-            Form form = new Form3204();
-            form.Show();
-        }
-
         private void btn3204_Click_1(object sender, EventArgs e)
         {
             Form form = new Form3204();
+            form.Show();            
+        }   
+        
+        private void btn3299_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3299();
             form.Show();
         }
     }
