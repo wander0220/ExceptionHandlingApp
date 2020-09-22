@@ -84,5 +84,33 @@ namespace ExceptionHandlingApp
             Form form = new Form3208();
             form.Show();
         }
+        private void btn3214_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3214();
+            form.ShowDialog();
+        }
+        private void btn3209_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3209();
+            form.Show();
+        }
+
+        private void btnhakbun_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3207();
+            form.Show();
+        }
+        
+        private void btn3204_Click_1(object sender, EventArgs e)
+        {
+            Form form = new Form3204();
+            form.Show();            
+        }   
+        
+        private void btn3299_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3299();
+            form.Show();
+        }
     }
 }

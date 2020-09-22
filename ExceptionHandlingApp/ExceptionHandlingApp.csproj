@@ -113,6 +113,36 @@
     <Compile Include="Form3208.Designer.cs">
       <DependentUpon>Form3208.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3214.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3214.Designer.cs">
+      <DependentUpon>Form3214.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3209.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3209.Designer.cs">
+      <DependentUpon>Form3209.cs</DependentUpon>
+    </Compile>   
+    <Compile Include="Form3207.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3207.Designer.cs">
+      <DependentUpon>Form3207.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3204.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3204.Designer.cs">
+      <DependentUpon>Form3204.cs</DependentUpon>
+    </Compile>    
+    <Compile Include="Form3299.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3299.Designer.cs">
+      <DependentUpon>Form3299.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -147,6 +177,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3208.resx">
       <DependentUpon>Form3208.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3214.resx">
+      <DependentUpon>Form3214.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3209.resx">
+      <DependentUpon>Form3209.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3207.resx">
+      <DependentUpon>Form3207.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3204.resx">
+      <DependentUpon>Form3204.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3299.resx">
+      <DependentUpon>Form3299.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
