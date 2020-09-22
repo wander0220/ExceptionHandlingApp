@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>ExceptionHandlingApp</RootNamespace>
     <AssemblyName>ExceptionHandlingApp</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,20 +53,103 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Form3102.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3102.Designer.cs">
       <DependentUpon>Form3102.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="Form3118.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3118.Designer.cs">
+      <DependentUpon>Form3118.cs</DependentUpon>
+    </Compile>
+
+    <Compile Include="Form3103.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3103.Designer.cs">
+      <DependentUpon>Form3103.cs</DependentUpon>
+    </Compile>
+
+    <Compile Include="Form3107.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3107.Designer.cs">
+      <DependentUpon>Form3107.cs</DependentUpon>
+    </Compile>
+
+    <Compile Include="Form3119.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3119.Designer.cs">
+      <DependentUpon>Form3119.cs</DependentUpon>
+    </Compile>
+
+    <Compile Include="Form3110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3110.Designer.cs">
+      <DependentUpon>Form3110.cs</DependentUpon>
+    </Compile>
+
+    <Compile Include="Form3105.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3105.Designer.cs">
+      <DependentUpon>Form3105.cs</DependentUpon>
+    </Compile>
+    
+    <Compile Include="Form3199.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3199.Designer.cs">
+      <DependentUpon>Form3199.cs</DependentUpon>
+    </Compile>
+      
+
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="Form3102.resx">
       <DependentUpon>Form3102.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="Form3118.resx">
+      <DependentUpon>Form3118.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="Form3103.resx">
+      <DependentUpon>Form3103.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="Form3107.resx">
+      <DependentUpon>Form3107.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="Form3119.resx">
+      <DependentUpon>Form3119.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="Form3110.resx">
+      <DependentUpon>Form3110.cs</DependentUpon>
+    </EmbeddedResource>
+    
+    <EmbeddedResource Include="Form3105.resx">
+      <DependentUpon>Form3105.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="Form3199.resx">
+      <DependentUpon>Form3199.cs</DependentUpon>
+    </EmbeddedResource>
+
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,6 +158,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
