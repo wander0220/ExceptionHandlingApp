@@ -36,7 +36,7 @@
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(85, 124);
+            this.txtInput.Location = new System.Drawing.Point(88, 79);
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(153, 28);
             this.txtInput.TabIndex = 0;
@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 88);
+            this.label1.Location = new System.Drawing.Point(85, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(158, 18);
             this.label1.TabIndex = 1;
@@ -52,14 +52,14 @@
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(85, 158);
+            this.txtResult.Location = new System.Drawing.Point(88, 113);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(153, 28);
             this.txtResult.TabIndex = 2;
             // 
             // btnCalc
             // 
-            this.btnCalc.Location = new System.Drawing.Point(85, 203);
+            this.btnCalc.Location = new System.Drawing.Point(88, 158);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(153, 74);
             this.btnCalc.TabIndex = 3;
@@ -71,13 +71,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 394);
+            this.ClientSize = new System.Drawing.Size(329, 291);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtInput);
             this.Name = "Form3105";
             this.Text = "Form3105";
+            this.Load += new System.EventHandler(this.Form3105_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
