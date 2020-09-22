@@ -32,7 +32,9 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn3199 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -53,6 +55,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn3199);
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(237, 160);
@@ -69,6 +72,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
             // 
+            // btn3199
+            // 
+            this.btn3199.Location = new System.Drawing.Point(7, 21);
+            this.btn3199.Name = "btn3199";
+            this.btn3199.Size = new System.Drawing.Size(82, 23);
+            this.btn3199.TabIndex = 0;
+            this.btn3199.Text = "3199 함기훈";
+            this.btn3199.UseVisualStyleBackColor = true;
+            this.btn3199.Click += new System.EventHandler(this.btn3199_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -82,6 +95,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,6 +107,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btn3199;
     }
 }
 
