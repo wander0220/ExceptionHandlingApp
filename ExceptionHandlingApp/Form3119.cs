@@ -16,5 +16,17 @@ namespace ExceptionHandlingApp
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String input = textInput.Text;
+            int result = int.Parse(input) * 100;
+            textResult.Text = result.ToString();
+        }
     }
 }
