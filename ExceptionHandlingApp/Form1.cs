@@ -30,10 +30,6 @@ namespace ExceptionHandlingApp
             form.Show();
         }
 
-        private void btn3199_Click(object sender, EventArgs e)
-        {
-            Form form = new Form3199();
-            form.Show();        }
 
         private void btn3110_Click(object sender, EventArgs e)
         {
