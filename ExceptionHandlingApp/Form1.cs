@@ -22,15 +22,62 @@ namespace ExceptionHandlingApp
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
 
         private void but3109_Click(object sender, EventArgs e)
         {
             Form form = new Form3109();
             form.Show();
         }
+
+        private void btn3102_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3102();
+            form.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3118();
+            form.Show();
+
+        }
+
+        private void btn3103_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3103();
+            form.Show();
+        }
+
+        private void btn3107_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3107();
+            form.Show();
+        }
+
+        private void btn3119_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3119();
+            form.Show();
+        }
+
+
+        private void btn3110_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3110();
+            form.Show();
+        }
+
+        private void btn3105_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3105();
+            form.Show();
+        }
+        
+        private void btn3199_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3199();
+            form.Show();        
+        }
+
     }
 }
