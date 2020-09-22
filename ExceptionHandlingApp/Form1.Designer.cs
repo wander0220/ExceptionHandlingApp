@@ -32,52 +32,74 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+
             this.btn3110 = new System.Windows.Forms.Button();
+            this.btn3105 = new System.Windows.Forms.Button();
+            this.btn3199 = new System.Windows.Forms.Button();
+
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
             // 
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 453);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 544);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(299, 26);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 20, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(374, 30);
+
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(155, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(186, 25);
+
             this.toolStripStatusLabel1.Text = "NCP 수업 - 예외 처리";
             // 
             // groupBox1
             // 
+
             this.groupBox1.Controls.Add(this.btn3110);
             this.groupBox1.Location = new System.Drawing.Point(15, 16);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
+
+            this.groupBox1.Controls.Add(this.btn3105);
+            this.groupBox1.Location = new System.Drawing.Point(19, 20);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
+            this.groupBox1.Controls.Add(this.btn3199);
+            this.groupBox1.Location = new System.Drawing.Point(13, 13);
+
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(271, 200);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(339, 240);
+
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "3-1";
             // 
             // groupBox2
             // 
-            this.groupBox2.Location = new System.Drawing.Point(15, 224);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
+
+            this.groupBox2.Location = new System.Drawing.Point(19, 268);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(271, 200);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(339, 240);
+
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
             // 
+
             // btn3110
             // 
             this.btn3110.Location = new System.Drawing.Point(69, 53);
@@ -97,6 +119,38 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.statusStrip1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
+            // btn3105
+            // 
+            this.btn3105.Location = new System.Drawing.Point(22, 42);
+            this.btn3105.Name = "btn3105";
+            this.btn3105.Size = new System.Drawing.Size(118, 58);
+            this.btn3105.TabIndex = 0;
+            this.btn3105.Text = "3105 박소영";
+            this.btn3105.UseVisualStyleBackColor = true;
+            this.btn3105.Click += new System.EventHandler(this.btn3105_Click);
+
+            // btn3199
+            // 
+            this.btn3199.Location = new System.Drawing.Point(7, 21);
+            this.btn3199.Name = "btn3199";
+            this.btn3199.Size = new System.Drawing.Size(82, 23);
+            this.btn3199.TabIndex = 0;
+            this.btn3199.Text = "3199 함기훈";
+            this.btn3199.UseVisualStyleBackColor = true;
+            this.btn3199.Click += new System.EventHandler(this.btn3199_Click);
+
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(374, 574);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.statusStrip1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
             this.Name = "Form1";
             this.Text = "예외 처리 실습";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -114,7 +168,11 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+
         private System.Windows.Forms.Button btn3110;
+        private System.Windows.Forms.Button btn3105;
+        private System.Windows.Forms.Button btn3199;
+
     }
 }
 
