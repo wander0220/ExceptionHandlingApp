@@ -41,6 +41,7 @@
             this.btn3105 = new System.Windows.Forms.Button();
             this.btn3199 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn3213 = new System.Windows.Forms.Button();
             this.btn3202 = new System.Windows.Forms.Button();
             this.btn3201 = new System.Windows.Forms.Button();
             this.btn3208 = new System.Windows.Forms.Button();
@@ -49,7 +50,6 @@
             this.btn3207 = new System.Windows.Forms.Button();
             this.btn3204 = new System.Windows.Forms.Button();
             this.btn3299 = new System.Windows.Forms.Button();
-
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -196,6 +196,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btn3213);
             this.groupBox2.Controls.Add(this.btn3202);
             this.groupBox2.Controls.Add(this.btn3201);
             this.groupBox2.Controls.Add(this.btn3208);
@@ -213,6 +214,16 @@
             this.groupBox2.Text = "3-2";
             // 
 
+            // btn3213
+            // 
+            this.btn3213.Location = new System.Drawing.Point(138, 129);
+            this.btn3213.Name = "btn3213";
+            this.btn3213.Size = new System.Drawing.Size(126, 29);
+            this.btn3213.TabIndex = 0;
+            this.btn3213.Text = "3213 윤희나";
+            this.btn3213.UseVisualStyleBackColor = true;
+            this.btn3213.Click += new System.EventHandler(this.btn3213_Click);
+          
             // btn3202
             // 
             this.btn3202.Location = new System.Drawing.Point(8, 26);
@@ -338,6 +349,7 @@
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
+        private System.Windows.Forms.Button btn3213;
         private System.Windows.Forms.Button btn3202;
         private System.Windows.Forms.Button btn3201;
         private System.Windows.Forms.Button button1;
