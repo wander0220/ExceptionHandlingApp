@@ -17,10 +17,12 @@ namespace ExceptionHandlingApp
             InitializeComponent();
         }
 
-        private void Form3110_Load(object sender, EventArgs e)
+        private void btnCalc_Click(object sender, EventArgs e)
         {
-
+            string input = txtInput.Text;
+            
+            int result = int.Parse(input) * 100;
+            txtResult.Text = result.ToString();
         }
-
     }
 }
