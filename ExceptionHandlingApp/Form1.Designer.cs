@@ -42,10 +42,13 @@
             this.btn3199 = new System.Windows.Forms.Button();
           
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+
+            this.btn3214 = new System.Windows.Forms.Button();
             this.btn3209 = new System.Windows.Forms.Button();
             this.btn3207 = new System.Windows.Forms.Button();
             this.btn3204 = new System.Windows.Forms.Button();
             this.btn3299 = new System.Windows.Forms.Button();
+
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -190,15 +193,11 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btn3209);
-            this.groupBox2.Location = new System.Drawing.Point(15, 224);
-          
-            this.groupBox2.Controls.Add(this.btn3207);
-            this.groupBox2.Location = new System.Drawing.Point(15, 224);
-          
-            this.groupBox2.Controls.Add(this.btn3204);
-            this.groupBox2.Location = new System.Drawing.Point(15, 224);
-          
+
+            this.groupBox2.Controls.Add(this.btn3214);
+            this.groupBox2.Controls.Add(this.btn3209);         
+            this.groupBox2.Controls.Add(this.btn3207);          
+            this.groupBox2.Controls.Add(this.btn3204);          
             this.groupBox2.Controls.Add(this.btn3299);
             this.groupBox2.Location = new System.Drawing.Point(13, 179);
 
@@ -251,6 +250,17 @@
             this.btn3299.Click += new System.EventHandler(this.btn3299_Click);
 
             // 
+            // btn3214
+            // 
+            this.btn3214.Location = new System.Drawing.Point(6, 131);
+            this.btn3214.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3214.Name = "btn3214";
+            this.btn3214.Size = new System.Drawing.Size(110, 24);
+            this.btn3214.TabIndex = 0;
+            this.btn3214.Text = "3214 이예슬 ";
+            this.btn3214.UseVisualStyleBackColor = true;
+            this.btn3214.Click += new System.EventHandler(this.btn3214_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -288,11 +298,11 @@
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
+        private System.Windows.Forms.Button btn3214;
         private System.Windows.Forms.Button btn3209;
         private System.Windows.Forms.Button btn3207;
         private System.Windows.Forms.Button btn3204;
         private System.Windows.Forms.Button btn3299;
-
     }
 }
 
