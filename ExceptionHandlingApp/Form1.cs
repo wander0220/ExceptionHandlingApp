@@ -79,5 +79,10 @@ namespace ExceptionHandlingApp
             form.Show();        
         }
 
+        private void btnhakbun_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3207();
+            form.Show();
+        }
     }
 }
