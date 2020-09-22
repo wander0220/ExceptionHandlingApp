@@ -33,6 +33,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
 
+            this.btn3103 = new System.Windows.Forms.Button();
             this.btn3107 = new System.Windows.Forms.Button();
             this.btn3119 = new System.Windows.Forms.Button();
             this.btn3110 = new System.Windows.Forms.Button();
@@ -66,6 +67,10 @@
             // groupBox1
             // 
 
+            this.groupBox1.Controls.Add(this.btn3103);
+            this.groupBox1.Location = new System.Drawing.Point(19, 20);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
             this.groupBox1.Controls.Add(this.btn3107);
             this.groupBox1.Location = new System.Drawing.Point(15, 16);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -87,10 +92,8 @@
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
 
             this.groupBox1.Name = "groupBox1";
-
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Size = new System.Drawing.Size(271, 200);
-
 
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -98,7 +101,6 @@
             // 
             // groupBox2
             // 
-
             this.groupBox2.Location = new System.Drawing.Point(15, 224);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
@@ -108,7 +110,17 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
+          
+            // btn3103
             // 
+            this.btn3103.Location = new System.Drawing.Point(7, 40);
+            this.btn3103.Name = "btn3103";
+            this.btn3103.Size = new System.Drawing.Size(133, 35);
+            this.btn3103.TabIndex = 0;
+            this.btn3103.Text = "3103 김수현";
+            this.btn3103.UseVisualStyleBackColor = true;
+            this.btn3103.Click += new System.EventHandler(this.btn3103_Click);
+
 
             // btn3107
             // 
@@ -172,7 +184,6 @@
             this.Controls.Add(this.statusStrip1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 
-
             this.Name = "Form1";
             this.Text = "예외 처리 실습";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -191,11 +202,13 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
 
+        private System.Windows.Forms.Button btn3103;
         private System.Windows.Forms.Button btn3107;
         private System.Windows.Forms.Button btn3119;
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
+
     }
 }
 
