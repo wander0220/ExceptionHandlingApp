@@ -74,12 +74,13 @@
             // 
             // btn3102
             // 
-            this.btn3102.Location = new System.Drawing.Point(0, 38);
+            this.btn3102.Location = new System.Drawing.Point(0, 29);
             this.btn3102.Name = "btn3102";
             this.btn3102.Size = new System.Drawing.Size(75, 23);
             this.btn3102.TabIndex = 3;
             this.btn3102.Text = "3102김수경";
             this.btn3102.UseVisualStyleBackColor = true;
+            this.btn3102.Click += new System.EventHandler(this.btn3102_Click);
             // 
             // Form1
             // 
