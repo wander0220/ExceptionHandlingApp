@@ -22,9 +22,16 @@ namespace ExceptionHandlingApp
 
         }
 
+        private void btn3105_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3105();
+            form.Show();
+        }
+        
         private void btn3199_Click(object sender, EventArgs e)
         {
             Form form = new Form3199();
-            form.Show();        }
+            form.Show();        
+        }
     }
 }
