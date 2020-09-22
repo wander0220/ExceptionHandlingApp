@@ -86,6 +86,7 @@
             this.btn3107.TabIndex = 0;
             this.btn3107.Text = "3107 소민지";
             this.btn3107.UseVisualStyleBackColor = true;
+            this.btn3107.Click += new System.EventHandler(this.btn3107_Click);
             // 
             // Form1
             // 
