@@ -79,5 +79,10 @@ namespace ExceptionHandlingApp
             form.Show();        
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3208();
+            form.Show();
+        }
     }
 }
