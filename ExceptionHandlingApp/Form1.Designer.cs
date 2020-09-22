@@ -34,6 +34,7 @@
             this.btn3118 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
 
+            this.btn3102 = new System.Windows.Forms.Button();
             this.btn3103 = new System.Windows.Forms.Button();
             this.btn3107 = new System.Windows.Forms.Button();
             this.btn3119 = new System.Windows.Forms.Button();
@@ -65,32 +66,17 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Location = new System.Drawing.Point(19, 20);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Controls.Add(this.btn3102);
             this.groupBox1.Controls.Add(this.btn3118);
-            this.groupBox1.Location = new System.Drawing.Point(15, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-
             this.groupBox1.Controls.Add(this.btn3103);
-            this.groupBox1.Location = new System.Drawing.Point(19, 20);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-
-            this.groupBox1.Controls.Add(this.btn3107);
-            this.groupBox1.Location = new System.Drawing.Point(15, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-          
+            this.groupBox1.Controls.Add(this.btn3107);         
             this.groupBox1.Controls.Add(this.btn3119);
-            this.groupBox1.Location = new System.Drawing.Point(15, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-
             this.groupBox1.Controls.Add(this.btn3110);
-            this.groupBox1.Location = new System.Drawing.Point(15, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-
-
             this.groupBox1.Controls.Add(this.btn3105);
-            this.groupBox1.Location = new System.Drawing.Point(19, 20);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-
             this.groupBox1.Controls.Add(this.btn3199);
+
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
 
             this.groupBox1.Name = "groupBox1";
@@ -184,6 +170,16 @@
             this.btn3199.Click += new System.EventHandler(this.btn3199_Click);
 
             // 
+            // btn3102
+            // 
+            this.btn3102.Location = new System.Drawing.Point(0, 29);
+            this.btn3102.Name = "btn3102";
+            this.btn3102.Size = new System.Drawing.Size(75, 23);
+            this.btn3102.TabIndex = 3;
+            this.btn3102.Text = "3102김수경";
+            this.btn3102.UseVisualStyleBackColor = true;
+            this.btn3102.Click += new System.EventHandler(this.btn3102_Click);
+            // 
             // Form1
             // 
 
@@ -213,6 +209,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
 
+        private System.Windows.Forms.Button btn3102;
         private System.Windows.Forms.Button btn3118;
         private System.Windows.Forms.Button btn3103;
         private System.Windows.Forms.Button btn3107;
@@ -220,7 +217,6 @@
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
-
     }
 }
 
