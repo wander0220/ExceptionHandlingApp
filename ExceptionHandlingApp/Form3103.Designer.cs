@@ -61,7 +61,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(148, 37);
+            this.label1.Location = new System.Drawing.Point(120, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(158, 18);
             this.label1.TabIndex = 3;
@@ -78,6 +78,7 @@
             this.Controls.Add(this.txtInput);
             this.Name = "Form3103";
             this.Text = "Form3103";
+            this.Load += new System.EventHandler(this.Form3103_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

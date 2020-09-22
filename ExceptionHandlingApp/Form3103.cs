@@ -17,16 +17,36 @@ namespace ExceptionHandlingApp
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string input = txtInput.Text;
-            int result = int.Parse(input) * 100;
-            txtResult.Text = result.ToString();
+            try
+            {
+                int result = int.Parse(input) * 100;
+                txtResult.Text = result.ToString();
+            }
+            catch(FormatException exception)
+            {
+                MessageBox.Show("올바른 숫자를 입력해주세요. \n"+exception.Message);
+                txtInput.Text = "";
+                txtResult.Text = "";
+            }catch(Exception exception)
+            {
+                MessageBox.Show("올바른 값을 입력하지 않았습니다. \n" + exception.Message);
+                txtInput.Text = "";
+                txtResult.Text = "";
+            }
+            finally
+            {
+                txtInput.Focus();
+            }
+
+
+        }
+
+        private void Form3103_Load(object sender, EventArgs e)
+        {
+            txtInput.Focus();
         }
     }
 }
