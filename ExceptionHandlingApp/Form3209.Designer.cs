@@ -36,9 +36,9 @@
             // 
             // btnResult
             // 
-            this.btnResult.Location = new System.Drawing.Point(68, 191);
+            this.btnResult.Location = new System.Drawing.Point(51, 149);
             this.btnResult.Name = "btnResult";
-            this.btnResult.Size = new System.Drawing.Size(75, 23);
+            this.btnResult.Size = new System.Drawing.Size(144, 98);
             this.btnResult.TabIndex = 0;
             this.btnResult.Text = "결과보기";
             this.btnResult.UseVisualStyleBackColor = true;
@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(65, 38);
+            this.label1.Location = new System.Drawing.Point(48, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 15);
             this.label1.TabIndex = 1;
@@ -55,24 +55,24 @@
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(68, 85);
+            this.txtInput.Location = new System.Drawing.Point(51, 58);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(100, 25);
+            this.txtInput.Size = new System.Drawing.Size(144, 25);
             this.txtInput.TabIndex = 2;
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(68, 135);
+            this.txtResult.Location = new System.Drawing.Point(51, 103);
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(100, 25);
+            this.txtResult.Size = new System.Drawing.Size(144, 25);
             this.txtResult.TabIndex = 3;
             // 
             // Form3209
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 467);
+            this.ClientSize = new System.Drawing.Size(246, 269);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.label1);
