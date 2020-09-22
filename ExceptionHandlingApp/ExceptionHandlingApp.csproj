@@ -54,6 +54,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
 
+    <Compile Include="Form3107.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3107.Designer.cs">
+      <DependentUpon>Form3107.cs</DependentUpon>
+    </Compile>
 
     <Compile Include="Form3119.cs">
       <SubType>Form</SubType>
@@ -83,6 +89,7 @@
       <DependentUpon>Form3199.cs</DependentUpon>
     </Compile>
       
+
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     
@@ -90,6 +97,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
 
+    <EmbeddedResource Include="Form3107.resx">
+      <DependentUpon>Form3107.cs</DependentUpon>
+    </EmbeddedResource>
 
     <EmbeddedResource Include="Form3119.resx">
       <DependentUpon>Form3119.cs</DependentUpon>
@@ -106,7 +116,7 @@
     <EmbeddedResource Include="Form3199.resx">
       <DependentUpon>Form3199.cs</DependentUpon>
     </EmbeddedResource>
-      
+
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
