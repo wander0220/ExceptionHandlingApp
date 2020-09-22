@@ -21,8 +21,34 @@ namespace ExceptionHandlingApp
         {
             string input = txtInput.Text;
             
-            int result = int.Parse(input) * 100;
-            txtResult.Text = result.ToString();
+            try
+            {
+                int result = int.Parse(input) * 100;
+                txtResult.Text = result.ToString();
+            }
+            catch(FormatException exception)
+            {
+                MessageBox.Show("올바른 숫자를 입력해주세요 : " + exception.Message);
+                txtInput.Text = "";
+                txtResult.Text = "";
+
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("올바른 값을 입력하지 않았습니다 : " + exception.Message);
+                txtInput.Text = "";
+                txtResult.Text = "";
+            }
+            finally
+            {
+                txtInput.Focus();
+            }
+
+        }
+
+        private void Form3110_Load(object sender, EventArgs e)
+        {
+            txtInput.Focus();
         }
     }
 }

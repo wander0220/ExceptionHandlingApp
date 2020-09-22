@@ -80,11 +80,11 @@
             // 
             // btn3110
             // 
-            this.btn3110.Location = new System.Drawing.Point(6, 25);
+            this.btn3110.Location = new System.Drawing.Point(69, 53);
             this.btn3110.Name = "btn3110";
             this.btn3110.Size = new System.Drawing.Size(129, 48);
             this.btn3110.TabIndex = 0;
-            this.btn3110.Text = "3110양아름";
+            this.btn3110.Text = "3110 양아름";
             this.btn3110.UseVisualStyleBackColor = true;
             this.btn3110.Click += new System.EventHandler(this.btn3110_Click);
             // 

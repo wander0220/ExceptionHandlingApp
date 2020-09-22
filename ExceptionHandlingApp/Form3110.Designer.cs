@@ -70,7 +70,7 @@
             this.txtResult.Size = new System.Drawing.Size(148, 25);
             this.txtResult.TabIndex = 3;
             // 
-            // Form3199
+            // Form3110
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -80,8 +80,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtInput);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Form3199";
+            this.Name = "Form3110";
             this.Text = "Form3199";
+            this.Load += new System.EventHandler(this.Form3110_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
