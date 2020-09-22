@@ -10,21 +10,17 @@ using System.Windows.Forms;
 
 namespace ExceptionHandlingApp
 {
-    public partial class Form1 : Form
+    public partial class Form3110 : Form
     {
-        public Form1()
+        public Form3110()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form3110_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void btn3199_Click(object sender, EventArgs e)
-        {
-            Form form = new Form3110();
-            form.Show();        }
     }
 }

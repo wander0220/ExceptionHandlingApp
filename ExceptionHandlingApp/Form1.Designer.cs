@@ -31,12 +31,10 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.btn3110 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -69,9 +67,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "3-1";
             // 
+            // btn3110
+            // 
+            this.btn3110.Location = new System.Drawing.Point(8, 26);
+            this.btn3110.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn3110.Name = "btn3110";
+            this.btn3110.Size = new System.Drawing.Size(115, 29);
+            this.btn3110.TabIndex = 0;
+            this.btn3110.Text = "3110 양아름";
+            this.btn3110.UseVisualStyleBackColor = true;
+            this.btn3110.Click += new System.EventHandler(this.btn3199_Click);
+            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Location = new System.Drawing.Point(15, 224);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
@@ -80,24 +88,6 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(222, 107);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(8, 8);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // btn3110
-            // 
-            this.btn3110.Location = new System.Drawing.Point(6, 25);
-            this.btn3110.Name = "btn3110";
-            this.btn3110.Size = new System.Drawing.Size(118, 40);
-            this.btn3110.TabIndex = 1;
-            this.btn3110.Text = "3110양아름";
-            this.btn3110.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -114,7 +104,6 @@
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,7 +116,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn3110;
-        private System.Windows.Forms.Button button1;
     }
 }
 
