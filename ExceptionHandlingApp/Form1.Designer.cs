@@ -86,6 +86,7 @@
             this.btn3103.TabIndex = 0;
             this.btn3103.Text = "3103 김수현";
             this.btn3103.UseVisualStyleBackColor = true;
+            this.btn3103.Click += new System.EventHandler(this.btn3103_Click);
             // 
             // Form1
             // 
