@@ -86,6 +86,7 @@
             this.btn3119.TabIndex = 0;
             this.btn3119.Text = "3119 황다희";
             this.btn3119.UseVisualStyleBackColor = true;
+            this.btn3119.Click += new System.EventHandler(this.btn3119_Click);
             // 
             // Form1
             // 
