@@ -87,7 +87,8 @@ namespace ExceptionHandlingApp
 
         private void btn3204_Click_1(object sender, EventArgs e)
         {
-
+            Form form = new Form3204();
+            form.Show();
         }
     }
 }
