@@ -17,7 +17,7 @@ namespace ExceptionHandlingApp
             InitializeComponent();
         }
 
-        private void btnResult_Click_TextChanged(object sender, EventArgs e)
+        private void btnResult_Click(object sender, EventArgs e)
         {
             try
             {
@@ -32,7 +32,7 @@ namespace ExceptionHandlingApp
                 txtResult.Text = "";
                 txtInput.Focus();
             }
-            catch ( Exception exception)
+            catch (Exception exception)
             {
                 MessageBox.Show("에러가 발생했습니다\n" + exception.Message);
                 txtInput.Text = "";
@@ -43,6 +43,11 @@ namespace ExceptionHandlingApp
             {
                 txtInput.Focus();
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
