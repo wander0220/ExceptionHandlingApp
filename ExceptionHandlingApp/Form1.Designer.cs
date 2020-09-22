@@ -34,6 +34,7 @@
             this.btn3118 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
 
+            this.but3109 = new System.Windows.Forms.Button();
             this.btn3102 = new System.Windows.Forms.Button();
             this.btn3103 = new System.Windows.Forms.Button();
             this.btn3107 = new System.Windows.Forms.Button();
@@ -66,6 +67,10 @@
             // 
             // groupBox1
             // 
+
+            this.groupBox1.Controls.Add(this.but3109);
+
+
             this.groupBox1.Location = new System.Drawing.Point(19, 20);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Controls.Add(this.btn3102);
@@ -77,8 +82,8 @@
             this.groupBox1.Controls.Add(this.btn3105);
             this.groupBox1.Controls.Add(this.btn3199);
 
-            this.groupBox1.Location = new System.Drawing.Point(13, 13);
-
+            this.groupBox1.Location = new System.Drawing.Point(15, 16);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Size = new System.Drawing.Size(271, 200);
@@ -86,6 +91,7 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "3-1";
+          
             // 
             // btn3118
             // 
@@ -180,9 +186,18 @@
             this.btn3102.UseVisualStyleBackColor = true;
             this.btn3102.Click += new System.EventHandler(this.btn3102_Click);
             // 
+            // but3109
+            // 
+            this.but3109.Location = new System.Drawing.Point(6, 25);
+            this.but3109.Name = "but3109";
+            this.but3109.Size = new System.Drawing.Size(105, 23);
+            this.but3109.TabIndex = 0;
+            this.but3109.Text = "3109 양나영";
+            this.but3109.UseVisualStyleBackColor = true;
+            this.but3109.Click += new System.EventHandler(this.but3109_Click);
+            // 
             // Form1
             // 
-
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(299, 479);
@@ -209,6 +224,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
 
+        private System.Windows.Forms.Button but3109;
         private System.Windows.Forms.Button btn3102;
         private System.Windows.Forms.Button btn3118;
         private System.Windows.Forms.Button btn3103;
@@ -217,6 +233,7 @@
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
+
     }
 }
 
