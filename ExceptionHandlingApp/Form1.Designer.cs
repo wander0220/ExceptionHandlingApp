@@ -42,10 +42,10 @@
             this.btn3199 = new System.Windows.Forms.Button();
           
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn3209 = new System.Windows.Forms.Button();
             this.btn3207 = new System.Windows.Forms.Button();
             this.btn3204 = new System.Windows.Forms.Button();
             this.btn3299 = new System.Windows.Forms.Button();
-          
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -95,7 +95,6 @@
             this.btn3119.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3119.Name = "btn3119";
             this.btn3119.Size = new System.Drawing.Size(110, 24);
-
             this.btn3119.TabIndex = 0;
             this.btn3119.Text = "3119 황다희";
             this.btn3119.UseVisualStyleBackColor = true;
@@ -191,10 +190,15 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btn3209);
+            this.groupBox2.Location = new System.Drawing.Point(15, 224);
+          
             this.groupBox2.Controls.Add(this.btn3207);
             this.groupBox2.Location = new System.Drawing.Point(15, 224);
+          
             this.groupBox2.Controls.Add(this.btn3204);
             this.groupBox2.Location = new System.Drawing.Point(15, 224);
+          
             this.groupBox2.Controls.Add(this.btn3299);
             this.groupBox2.Location = new System.Drawing.Point(13, 179);
 
@@ -204,7 +208,17 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
+             
+
+            // btn3209
             // 
+            this.btn3209.Location = new System.Drawing.Point(7, 162);
+            this.btn3209.Name = "btn3209";
+            this.btn3209.Size = new System.Drawing.Size(126, 31);
+            this.btn3209.TabIndex = 0;
+            this.btn3209.Text = "3209 서화원";
+            this.btn3209.UseVisualStyleBackColor = true;
+            this.btn3209.Click += new System.EventHandler(this.btn3209_Click);
 
             // btn3207
             // 
@@ -274,9 +288,11 @@
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
+        private System.Windows.Forms.Button btn3209;
         private System.Windows.Forms.Button btn3207;
         private System.Windows.Forms.Button btn3204;
         private System.Windows.Forms.Button btn3299;
+
     }
 }
 
