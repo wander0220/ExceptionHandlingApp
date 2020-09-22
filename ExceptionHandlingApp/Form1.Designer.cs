@@ -40,17 +40,13 @@
             this.btn3110 = new System.Windows.Forms.Button();
             this.btn3105 = new System.Windows.Forms.Button();
             this.btn3199 = new System.Windows.Forms.Button();
-          
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn3208 = new System.Windows.Forms.Button();
             this.btn3214 = new System.Windows.Forms.Button();
             this.btn3209 = new System.Windows.Forms.Button();
             this.btn3207 = new System.Windows.Forms.Button();
             this.btn3204 = new System.Windows.Forms.Button();
             this.btn3299 = new System.Windows.Forms.Button();
-
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -61,17 +57,16 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 453);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 361);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(299, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(262, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(155, 20);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(124, 17);
             this.toolStripStatusLabel1.Text = "NCP 수업 - 예외 처리";
             // 
             // groupBox1
@@ -85,23 +80,19 @@
             this.groupBox1.Controls.Add(this.btn3110);
             this.groupBox1.Controls.Add(this.btn3105);
             this.groupBox1.Controls.Add(this.btn3199);
-            this.groupBox1.Location = new System.Drawing.Point(15, 16);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Location = new System.Drawing.Point(13, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(271, 200);
+            this.groupBox1.Size = new System.Drawing.Size(237, 160);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "3-1";
             // 
             // btn3119
             // 
-
-            this.btn3119.Location = new System.Drawing.Point(7, 164);
+            this.btn3119.Location = new System.Drawing.Point(6, 131);
             this.btn3119.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3119.Name = "btn3119";
-            this.btn3119.Size = new System.Drawing.Size(126, 30);
-
+            this.btn3119.Size = new System.Drawing.Size(110, 24);
             this.btn3119.TabIndex = 0;
             this.btn3119.Text = "3119 황다희";
             this.btn3119.UseVisualStyleBackColor = true;
@@ -109,10 +100,10 @@
             // 
             // but3109
             // 
-            this.but3109.Location = new System.Drawing.Point(138, 94);
+            this.but3109.Location = new System.Drawing.Point(121, 75);
             this.but3109.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.but3109.Name = "but3109";
-            this.but3109.Size = new System.Drawing.Size(126, 30);
+            this.but3109.Size = new System.Drawing.Size(110, 24);
             this.but3109.TabIndex = 0;
             this.but3109.Text = "3109 양나영";
             this.but3109.UseVisualStyleBackColor = true;
@@ -120,10 +111,10 @@
             // 
             // btn3102
             // 
-            this.btn3102.Location = new System.Drawing.Point(138, 21);
+            this.btn3102.Location = new System.Drawing.Point(121, 17);
             this.btn3102.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3102.Name = "btn3102";
-            this.btn3102.Size = new System.Drawing.Size(126, 30);
+            this.btn3102.Size = new System.Drawing.Size(110, 24);
             this.btn3102.TabIndex = 3;
             this.btn3102.Text = "3102김수경";
             this.btn3102.UseVisualStyleBackColor = true;
@@ -131,10 +122,10 @@
             // 
             // btn3118
             // 
-            this.btn3118.Location = new System.Drawing.Point(138, 129);
+            this.btn3118.Location = new System.Drawing.Point(121, 103);
             this.btn3118.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3118.Name = "btn3118";
-            this.btn3118.Size = new System.Drawing.Size(126, 30);
+            this.btn3118.Size = new System.Drawing.Size(110, 24);
             this.btn3118.TabIndex = 0;
             this.btn3118.Text = "3118 정민지";
             this.btn3118.UseVisualStyleBackColor = true;
@@ -142,10 +133,10 @@
             // 
             // btn3103
             // 
-            this.btn3103.Location = new System.Drawing.Point(7, 59);
+            this.btn3103.Location = new System.Drawing.Point(6, 47);
             this.btn3103.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3103.Name = "btn3103";
-            this.btn3103.Size = new System.Drawing.Size(126, 30);
+            this.btn3103.Size = new System.Drawing.Size(110, 24);
             this.btn3103.TabIndex = 0;
             this.btn3103.Text = "3103 김수현";
             this.btn3103.UseVisualStyleBackColor = true;
@@ -153,10 +144,10 @@
             // 
             // btn3107
             // 
-            this.btn3107.Location = new System.Drawing.Point(7, 94);
+            this.btn3107.Location = new System.Drawing.Point(6, 75);
             this.btn3107.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3107.Name = "btn3107";
-            this.btn3107.Size = new System.Drawing.Size(126, 30);
+            this.btn3107.Size = new System.Drawing.Size(110, 24);
             this.btn3107.TabIndex = 0;
             this.btn3107.Text = "3107 소민지";
             this.btn3107.UseVisualStyleBackColor = true;
@@ -164,10 +155,10 @@
             // 
             // btn3110
             // 
-            this.btn3110.Location = new System.Drawing.Point(7, 129);
+            this.btn3110.Location = new System.Drawing.Point(6, 103);
             this.btn3110.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3110.Name = "btn3110";
-            this.btn3110.Size = new System.Drawing.Size(126, 30);
+            this.btn3110.Size = new System.Drawing.Size(110, 24);
             this.btn3110.TabIndex = 0;
             this.btn3110.Text = "3110 양아름";
             this.btn3110.UseVisualStyleBackColor = true;
@@ -175,10 +166,10 @@
             // 
             // btn3105
             // 
-            this.btn3105.Location = new System.Drawing.Point(138, 59);
+            this.btn3105.Location = new System.Drawing.Point(121, 47);
             this.btn3105.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3105.Name = "btn3105";
-            this.btn3105.Size = new System.Drawing.Size(126, 30);
+            this.btn3105.Size = new System.Drawing.Size(110, 24);
             this.btn3105.TabIndex = 0;
             this.btn3105.Text = "3105 박소영";
             this.btn3105.UseVisualStyleBackColor = true;
@@ -186,10 +177,10 @@
             // 
             // btn3199
             // 
-            this.btn3199.Location = new System.Drawing.Point(7, 21);
+            this.btn3199.Location = new System.Drawing.Point(6, 17);
             this.btn3199.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3199.Name = "btn3199";
-            this.btn3199.Size = new System.Drawing.Size(126, 30);
+            this.btn3199.Size = new System.Drawing.Size(110, 24);
             this.btn3199.TabIndex = 0;
             this.btn3199.Text = "3199 함기훈";
             this.btn3199.UseVisualStyleBackColor = true;
@@ -197,104 +188,94 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.btn3208);
             this.groupBox2.Controls.Add(this.btn3214);
-            this.groupBox2.Controls.Add(this.btn3209);         
-            this.groupBox2.Controls.Add(this.btn3207);          
-            this.groupBox2.Controls.Add(this.btn3204);          
+            this.groupBox2.Controls.Add(this.btn3209);
+            this.groupBox2.Controls.Add(this.btn3207);
+            this.groupBox2.Controls.Add(this.btn3204);
             this.groupBox2.Controls.Add(this.btn3299);
-            this.groupBox2.Location = new System.Drawing.Point(13, 179);
-
+            this.groupBox2.Location = new System.Drawing.Point(11, 143);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(271, 200);
+            this.groupBox2.Size = new System.Drawing.Size(237, 160);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
-             
-
-            // btn3209
             // 
-            this.btn3209.Location = new System.Drawing.Point(7, 162);
-            this.btn3209.Name = "btn3209";
-            this.btn3209.Size = new System.Drawing.Size(126, 31);
-            this.btn3209.TabIndex = 0;
-            this.btn3209.Text = "3209 서화원";
-            this.btn3209.UseVisualStyleBackColor = true;
-            this.btn3209.Click += new System.EventHandler(this.btn3209_Click);
-
-            // btn3207
+            // btn3208
             // 
-            this.btn3207.Location = new System.Drawing.Point(7, 36);
-            this.btn3207.Name = "btn3207";
-            this.btn3207.Size = new System.Drawing.Size(126, 29);
-            this.btn3207.TabIndex = 0;
-            this.btn3207.Text = "3207 박소원";
-            this.btn3207.UseVisualStyleBackColor = true;
-            this.btn3207.Click += new System.EventHandler(this.btnhakbun_Click);
-
-          // btn3204
-            // 
-            this.btn3204.Location = new System.Drawing.Point(138, 49);
-            this.btn3204.Name = "btn3204";
-            this.btn3204.Size = new System.Drawing.Size(126, 28);
-            this.btn3204.TabIndex = 0;
-            this.btn3204.Text = "3204 남하빈";
-            this.btn3204.UseVisualStyleBackColor = true;
-            this.btn3204.Click += new System.EventHandler(this.btn3204_Click_1);
-
-            // btn3299
-            // 
-            this.btn3299.Location = new System.Drawing.Point(6, 20);
-            this.btn3299.Name = "btn3299";
-            this.btn3299.Size = new System.Drawing.Size(110, 28);
-            this.btn3299.TabIndex = 0;
-            this.btn3299.Text = "3299 함기훈";
-            this.btn3299.UseVisualStyleBackColor = true;
-            this.btn3299.Click += new System.EventHandler(this.btn3299_Click);
-
+            this.btn3208.Location = new System.Drawing.Point(121, 16);
+            this.btn3208.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3208.Name = "btn3208";
+            this.btn3208.Size = new System.Drawing.Size(110, 18);
+            this.btn3208.TabIndex = 4;
+            this.btn3208.Text = "3208 서예진";
+            this.btn3208.UseVisualStyleBackColor = true;
+            this.btn3208.Click += new System.EventHandler(this.btn3208_Click);
             // 
             // btn3214
             // 
-            this.btn3214.Location = new System.Drawing.Point(6, 131);
+            this.btn3214.Location = new System.Drawing.Point(5, 105);
             this.btn3214.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3214.Name = "btn3214";
-            this.btn3214.Size = new System.Drawing.Size(110, 24);
+            this.btn3214.Size = new System.Drawing.Size(96, 19);
             this.btn3214.TabIndex = 0;
             this.btn3214.Text = "3214 이예슬 ";
             this.btn3214.UseVisualStyleBackColor = true;
             this.btn3214.Click += new System.EventHandler(this.btn3214_Click);
             // 
-            // button1
+            // btn3209
             // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn3209.Location = new System.Drawing.Point(6, 130);
+            this.btn3209.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3209.Name = "btn3209";
+            this.btn3209.Size = new System.Drawing.Size(110, 25);
+            this.btn3209.TabIndex = 0;
+            this.btn3209.Text = "3209 서화원";
+            this.btn3209.UseVisualStyleBackColor = true;
+            this.btn3209.Click += new System.EventHandler(this.btn3209_Click);
             // 
-            // button2
+            // btn3207
             // 
-            this.button2.Location = new System.Drawing.Point(7, 25);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(126, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "3208 서예진";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn3207.Location = new System.Drawing.Point(6, 29);
+            this.btn3207.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3207.Name = "btn3207";
+            this.btn3207.Size = new System.Drawing.Size(110, 23);
+            this.btn3207.TabIndex = 0;
+            this.btn3207.Text = "3207 박소원";
+            this.btn3207.UseVisualStyleBackColor = true;
+            this.btn3207.Click += new System.EventHandler(this.btnhakbun_Click);
+            // 
+            // btn3204
+            // 
+            this.btn3204.Location = new System.Drawing.Point(121, 39);
+            this.btn3204.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3204.Name = "btn3204";
+            this.btn3204.Size = new System.Drawing.Size(110, 22);
+            this.btn3204.TabIndex = 0;
+            this.btn3204.Text = "3204 남하빈";
+            this.btn3204.UseVisualStyleBackColor = true;
+            this.btn3204.Click += new System.EventHandler(this.btn3204_Click_1);
+            // 
+            // btn3299
+            // 
+            this.btn3299.Location = new System.Drawing.Point(5, 16);
+            this.btn3299.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3299.Name = "btn3299";
+            this.btn3299.Size = new System.Drawing.Size(96, 22);
+            this.btn3299.TabIndex = 0;
+            this.btn3299.Text = "3299 함기훈";
+            this.btn3299.UseVisualStyleBackColor = true;
+            this.btn3299.Click += new System.EventHandler(this.btn3299_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(299, 479);
-
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(262, 383);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.statusStrip1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "예외 처리 실습";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -323,8 +304,7 @@
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn3208;
         private System.Windows.Forms.Button btn3214;
         private System.Windows.Forms.Button btn3209;
         private System.Windows.Forms.Button btn3207;

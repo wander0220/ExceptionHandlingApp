@@ -35,12 +35,6 @@ namespace ExceptionHandlingApp
             form.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form form = new Form3118();
-            form.Show();
-
-        }
 
         private void btn3103_Click(object sender, EventArgs e)
         {
@@ -79,7 +73,7 @@ namespace ExceptionHandlingApp
             form.Show();        
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn3208_Click(object sender, EventArgs e)
         {
             Form form = new Form3208();
             form.Show();
