@@ -26,5 +26,11 @@ namespace ExceptionHandlingApp
         {
 
         }
+
+        private void but3109_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3109();
+            form.Show();
+        }
     }
 }

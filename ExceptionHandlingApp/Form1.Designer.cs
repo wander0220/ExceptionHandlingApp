@@ -87,6 +87,7 @@
             this.but3109.TabIndex = 0;
             this.but3109.Text = "3109 양나영";
             this.but3109.UseVisualStyleBackColor = true;
+            this.but3109.Click += new System.EventHandler(this.but3109_Click);
             // 
             // Form1
             // 
