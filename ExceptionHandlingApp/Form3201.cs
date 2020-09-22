@@ -19,9 +19,30 @@ namespace ExceptionHandlingApp
 
         private void btnresult_Click(object sender, EventArgs e)
         {
+            try { 
             string input = txtinput.Text;
             int result = int.Parse(input) * 100;
             txtresult.Text = result.ToString();
+             
+            }
+            catch(FormatException ex)
+            {
+                MessageBox.Show("제대로 숫자를 입력해주세요\n"+  ex.Message);
+                txtinput.Text = "";
+                txtresult.Text = "";
+                
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("에러가 발생했습니다.\n" + ex.Message);
+                txtinput.Text = "";
+                txtresult.Text = "";
+                
+            }
+            finally
+            {
+                txtinput.Focus();
+            }
         }
     }
 }
