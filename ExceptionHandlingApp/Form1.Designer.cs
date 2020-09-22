@@ -33,6 +33,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
 
+
+            this.btn3119 = new System.Windows.Forms.Button();
             this.btn3110 = new System.Windows.Forms.Button();
             this.btn3105 = new System.Windows.Forms.Button();
             this.btn3199 = new System.Windows.Forms.Button();
@@ -44,13 +46,13 @@
             // statusStrip1
             // 
 
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 544);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 453);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 20, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(374, 30);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(299, 26);
 
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
@@ -58,12 +60,18 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(186, 25);
+
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(155, 20);
 
             this.toolStripStatusLabel1.Text = "NCP 수업 - 예외 처리";
             // 
             // groupBox1
             // 
+
+
+            this.groupBox1.Controls.Add(this.btn3119);
+            this.groupBox1.Location = new System.Drawing.Point(15, 16);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 
             this.groupBox1.Controls.Add(this.btn3110);
             this.groupBox1.Location = new System.Drawing.Point(15, 16);
@@ -78,8 +86,9 @@
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
 
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(339, 240);
+
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(271, 200);
 
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -88,17 +97,27 @@
             // groupBox2
             // 
 
-
-            this.groupBox2.Location = new System.Drawing.Point(19, 268);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(15, 224);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(339, 240);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(271, 200);
 
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
             // 
+
+
+            // btn3119
+            // 
+            this.btn3119.Location = new System.Drawing.Point(7, 26);
+            this.btn3119.Name = "btn3119";
+            this.btn3119.Size = new System.Drawing.Size(104, 23);
+            this.btn3119.TabIndex = 0;
+            this.btn3119.Text = "3119 황다희";
+            this.btn3119.UseVisualStyleBackColor = true;
+            this.btn3119.Click += new System.EventHandler(this.btn3119_Click);
 
             // btn3110
             // 
@@ -143,6 +162,7 @@
             // 
             // Form1
             // 
+
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(374, 574);
@@ -169,6 +189,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
 
+
+        private System.Windows.Forms.Button btn3119;
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
