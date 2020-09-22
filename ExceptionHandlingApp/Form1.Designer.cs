@@ -31,18 +31,20 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn3119 = new System.Windows.Forms.Button();
             this.but3109 = new System.Windows.Forms.Button();
             this.btn3102 = new System.Windows.Forms.Button();
             this.btn3118 = new System.Windows.Forms.Button();
             this.btn3103 = new System.Windows.Forms.Button();
             this.btn3107 = new System.Windows.Forms.Button();
-            this.btn3119 = new System.Windows.Forms.Button();
             this.btn3110 = new System.Windows.Forms.Button();
             this.btn3105 = new System.Windows.Forms.Button();
             this.btn3199 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn3214 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -79,6 +81,17 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "3-1";
+            // 
+            // btn3119
+            // 
+            this.btn3119.Location = new System.Drawing.Point(6, 131);
+            this.btn3119.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3119.Name = "btn3119";
+            this.btn3119.Size = new System.Drawing.Size(110, 24);
+            this.btn3119.TabIndex = 0;
+            this.btn3119.Text = "3119 황다희";
+            this.btn3119.UseVisualStyleBackColor = true;
+            this.btn3119.Click += new System.EventHandler(this.btn3119_Click);
             // 
             // but3109
             // 
@@ -135,17 +148,6 @@
             this.btn3107.UseVisualStyleBackColor = true;
             this.btn3107.Click += new System.EventHandler(this.btn3107_Click);
             // 
-            // btn3119
-            // 
-            this.btn3119.Location = new System.Drawing.Point(6, 131);
-            this.btn3119.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn3119.Name = "btn3119";
-            this.btn3119.Size = new System.Drawing.Size(110, 24);
-            this.btn3119.TabIndex = 0;
-            this.btn3119.Text = "3119 황다희";
-            this.btn3119.UseVisualStyleBackColor = true;
-            this.btn3119.Click += new System.EventHandler(this.btn3119_Click);
-            // 
             // btn3110
             // 
             this.btn3110.Location = new System.Drawing.Point(6, 103);
@@ -181,12 +183,24 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btn3214);
             this.groupBox2.Location = new System.Drawing.Point(13, 179);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(237, 160);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "3-2";
+            // 
+            // btn3214
+            // 
+            this.btn3214.Location = new System.Drawing.Point(6, 131);
+            this.btn3214.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn3214.Name = "btn3214";
+            this.btn3214.Size = new System.Drawing.Size(110, 24);
+            this.btn3214.TabIndex = 0;
+            this.btn3214.Text = "3214 이예슬 ";
+            this.btn3214.UseVisualStyleBackColor = true;
+            this.btn3214.Click += new System.EventHandler(this.btn3214_Click);
             // 
             // Form1
             // 
@@ -202,6 +216,7 @@
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,7 +238,7 @@
         private System.Windows.Forms.Button btn3110;
         private System.Windows.Forms.Button btn3105;
         private System.Windows.Forms.Button btn3199;
-
+        private System.Windows.Forms.Button btn3214;
     }
 }
 

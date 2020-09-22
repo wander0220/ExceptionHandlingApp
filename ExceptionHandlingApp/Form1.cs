@@ -79,5 +79,10 @@ namespace ExceptionHandlingApp
             form.Show();        
         }
 
+        private void btn3214_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3214();
+            form.ShowDialog();
+        }
     }
 }
