@@ -80,6 +80,7 @@
             this.btn3199.TabIndex = 0;
             this.btn3199.Text = "3199 함기훈";
             this.btn3199.UseVisualStyleBackColor = true;
+            this.btn3199.Click += new System.EventHandler(this.btn3199_Click);
             // 
             // Form1
             // 
