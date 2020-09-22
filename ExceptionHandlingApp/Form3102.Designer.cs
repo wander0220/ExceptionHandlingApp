@@ -81,6 +81,7 @@
             this.Controls.Add(this.txtInput);
             this.Name = "Form3102";
             this.Text = "Form3102";
+            this.Load += new System.EventHandler(this.Form3102_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
