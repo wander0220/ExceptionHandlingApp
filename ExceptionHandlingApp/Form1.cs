@@ -81,6 +81,12 @@ namespace ExceptionHandlingApp
         }
 
 
+        private void btn3202_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3202();
+            form.Show();
+        }
+
         private void btn3201_Click(object sender, EventArgs e)
         {
             Form form = new Form3201();
